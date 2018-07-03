@@ -13,7 +13,7 @@
 5. plugins 完成一些特殊的构建任务，
 
 
-### 将项目克隆到本地
+#### 将项目克隆到本地
 
 ```bash
 # 定位到任意目录
@@ -26,14 +26,23 @@ $ git clone https://github.com/ivanYF/webpack-basics.git [project-name] --depth 
 $ cd [project-name]
 ```
 
-## 安装项目`CNPM`依赖
+#### 安装项目`CNPM`依赖
 
 ```bash
 $ cnpm install
 ```
 
-# 查看demo
+#### 查看demo
 ```bash
 $ npm run dev   http://localhost:8080/
 ```
+
+#### 有问题？
+
+Welcome PR or Issue！
+
+
+#### 许可
+
+MIT &copy; [ivan](https://github.com/ivanYF)
 
