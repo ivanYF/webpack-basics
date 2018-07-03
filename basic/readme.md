@@ -35,6 +35,7 @@ $ cnpm install
 ```
 
 # 查看demo
+```bash
 $ npm run dev   http://localhost:8080/
 ```
 
