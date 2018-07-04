@@ -1,6 +1,6 @@
 # webpack 基础教程讲解
 
-## 基础介绍
+## 基础介绍 -- basic
 
 1. entry  入口 webpack 读取起始`.js`,解析依赖，然后进行打包
 

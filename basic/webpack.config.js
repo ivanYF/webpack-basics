@@ -53,7 +53,9 @@ module.exports = {
   resolve: {
     modules: [
       "node_modules",
-      path.resolve(__dirname, 'src'),
+      path.resolve(__dirname, 'src'),  // node_modules查找不到进行查找 src目录下
+
+      // 优先级的配置   在某种程度上可以简化模块的查找，提升构建速度。
     ],
     // 默认文件后缀的问题
     extensions: [".wasm", ".mjs", ".js", ".json", ".jsx"],
